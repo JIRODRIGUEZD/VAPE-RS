@@ -3,8 +3,6 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=jirodriguezd&label=Profile%20views&color=0e75b6&style=flat" alt="jirodriguezd" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=jirodriguezd" alt="jirodriguezd" /></a> </p>
-
 - 🔭 I’m currently working on **Vape RS Web Page**
 
 - 🌱 I’m currently learning **HTML,CSS,Bootstrap,**
