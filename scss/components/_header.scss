@@ -1,0 +1,30 @@
+header{background-color: black;
+    font-size: 30px;
+    height: 135px;
+    width: 100%;
+        h1{
+            a{
+                img{
+                    height: 135px;
+                }
+            }
+        }
+        nav{
+            ul{
+                list-style: none;
+                display: flex;
+                justify-content: right;
+                align-items: center;
+                li{
+                    margin: 5px 15px 5px 15px;
+                    a{
+                        text-decoration: none;
+                        color: white;
+                        background-color: black;
+                    }
+                }
+            }
+
+        }
+
+}
