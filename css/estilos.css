@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*---- VARIABLES-------*/
 /* IMPORTAR FONTS DE LA PAG */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap");
@@ -35,13 +36,13 @@ header {
 /*-- HERO-- */
 .hero {
   text-align: center;
-  height: 500px;
+  height: 450px;
   width: 100%;
   background-image: url("../img/hero.jpg");
   background-repeat: no-repeat;
   background-size: auto;
   background-position: top;
-  background-attachment: fixed;
+  background-attachment: scroll;
   font-size: 35px;
   display: flex;
   flex-direction: column;
@@ -60,6 +61,39 @@ header {
     padding: 10px; }
 
 /*-- PRODUCTOS*/
+.productos h2 {
+  font-size: 40px;
+  text-align: center;
+  margin: 5px 10px 5px 10px; }
+
+.producto-contenedor {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+
+.productos .producto-contenedor div {
+  border-radius: 15px;
+  box-shadow: 2px 2px 15px white;
+  width: 250px;
+  height: 400px;
+  margin: 20px;
+  text-align: center; }
+
+.productos div a {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid;
+  text-decoration: none; }
+
+.productos div img {
+  border-radius: 15px 15px 0 0;
+  width: 242px;
+  height: 200px;
+  padding-top: 4px; }
+
+.productos div h3 {
+  margin: 10px 15px 15px 20px; }
+
 /*-- VIDEO-- */
 .video {
   display: flex;
@@ -68,6 +102,174 @@ header {
   border: 3px solid;
   padding: 15px;
   margin: 15px; }
+
+/*-- PAGINA CONTACTO -- */
+.contacto {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .contacto h2 {
+    text-align: center;
+    font-size: 40px; }
+  .contacto h3 {
+    text-align: center;
+    font-size: 35px;
+    margin: 10px 10px 10px 10px; }
+
+.redessocialescontacto {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .redessocialescontacto i {
+    font-size: 120px;
+    color: white;
+    margin: 25px 15px 25px 15px; }
+    .redessocialescontacto i:hover {
+      color: #5cbdcc; }
+
+.mapa {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+form {
+  margin: 0 auto;
+  width: 600px;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em; }
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right; }
+
+.contacto ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.textoscontacto h2 {
+  text-align: center;
+  font-size: 40px;
+  margin: 10px 10px 10px 10px; }
+
+form li + li {
+  margin-top: 1em; }
+
+input, textarea {
+  /* Tamaño uniforme del campo de texto */
+  width: 300px;
+  box-sizing: border-box;
+  /* Hacer coincidir los bordes del campo del formulario */
+  border: 1px solid #999; }
+
+input:focus {
+  border-color: #000; }
+
+textarea {
+  vertical-align: top;
+  height: 5em; }
+  textarea:focus {
+    border-color: #000; }
+
+.button {
+  /* Alinear los botones con los campos de texto */
+  padding-left: 90px;
+  /* mismo tamaño que los elementos de la etiqueta */ }
+
+button {
+  text-decoration: none;
+  margin-left: 0.5em; }
+
+/*FLEXBOX*/
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+/*GRIDS GALERIA*/
+.nosotros h2 {
+  text-align: center;
+  font-size: 35px; }
+
+.nosotros p {
+  text-align: justify;
+  font-size: 35px; }
+
+.grid-container {
+  width: 90%;
+  border: solid 2px white;
+  margin: 30px;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px 300px 300px;
+  gap: 10px 10px;
+  grid-auto-flow: row;
+  grid-template-areas: "img1 img2 img5 img10" "img1 img4 img3 img10" "img6 img4 img8 img8" "img7 img9 img8 img8"; }
+  .grid-container div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+.img1 {
+  grid-area: img1;
+  border: solid 2px white; }
+
+.img2 {
+  grid-area: img2;
+  border: solid 2px white; }
+
+.img3 {
+  grid-area: img3;
+  border: solid 2px white; }
+
+.img4 {
+  grid-area: img4;
+  border: solid 2px white; }
+
+.img5 {
+  grid-area: img5;
+  border: solid 2px white; }
+
+.img6 {
+  grid-area: img6;
+  border: solid 2px white; }
+
+.img7 {
+  grid-area: img7;
+  border: solid 2px white; }
+
+.img8 {
+  grid-area: img8;
+  border: solid 2px white; }
+
+.img9 {
+  grid-area: img9;
+  border: solid 2px white; }
+
+.img10 {
+  grid-area: img10;
+  border: solid 2px white; }
+
+/*MARCAS*/
+.marcas h2 {
+  font-size: 55px;
+  text-align: center; }
+
+.carousel-inner {
+  width: 75%;
+  height: 500px;
+  align-items: center;
+  margin: 10px 250px 10px 250px; }
+
+.textomarcas {
+  font-size: 40px;
+  text-align: center; }
 
 /*--- FOOTER --*/
 footer {

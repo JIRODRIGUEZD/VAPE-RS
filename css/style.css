@@ -55,6 +55,7 @@ header h1 img {
     background-repeat: no-repeat;
     background-size: auto;
     background-position: top;
+    background-attachment: scroll;
     font-size: 35px;
     display: flex;
     flex-direction: column;
@@ -83,23 +84,17 @@ header h1 img {
 }
 
 /*PRODUCTOS*/
-
-.productos img {
-    width: 400px;
-    height: 600px;
-}
-
+ 
 .productos h2 {
     font-size: 40px;
     text-align: center;
     margin: 5px 10px 5px 10px
 }
-
-.productos h3 {
-    text-align: center;
-    margin: 5px 10px 5px 10px
+.producto-contenedor {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
-
 .productos .producto-contenedor div {
     border-radius: 15px;
     box-shadow: 2px 2px 15px white;
@@ -107,12 +102,6 @@ header h1 img {
     height: 400px;
     margin: 20px;
     text-align: center;
-}
-
-.producto-contenedor {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
 }
 
 .productos div a {
