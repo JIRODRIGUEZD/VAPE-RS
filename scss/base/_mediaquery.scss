@@ -101,13 +101,22 @@
     h3 {
       font-size: 20px;
     }
+    p{
+      font-size: 20px
+    }
   }
+
 
   .marcas h2 {
     font-size: 25px;
     margin-top: 50px;
   }
 
+  .textomarcas{
+    p{
+      font-size: 25px;
+    }
+  }
   .video {
     flex-direction: column;
 
@@ -132,7 +141,25 @@
       font-size: 40px;
     }
   }
+
+  /* CONTACTO */
+  .contacto {
+    h2 {
+      font-size: 25px;
+      margin-top: 35px;
+    }
+
+    div {
+      h3 {
+        font-size: 25px
+      }
+
+    }
+
+  }
+
 }
+
 
 /*!----- MEDIA QUERY 670 px----- */
 
@@ -188,9 +215,13 @@
 
   .productos h2 {
     font-size: 15px;
-    margin-top: 15px;
+    margin-top: 35px;
   }
-
+  .textomarcas{
+    p{
+      font-size: 15px;
+    }
+  }
   .video {
     iframe {
       width: 220px;
@@ -212,6 +243,9 @@
 
     h3 {
       font-size: 14px;
+    }
+    p{
+      font-size: 12px
     }
   }
 
