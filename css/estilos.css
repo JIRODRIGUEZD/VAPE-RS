@@ -170,7 +170,7 @@ label {
 
 .textoscontacto h2 {
   text-align: center;
-  font-size: 40px;
+  font-size: 35px;
   margin: 10px 10px 10px 10px; }
 
 form li + li {
@@ -278,6 +278,12 @@ button {
   text-align: center; }
 
 .carousel-inner {
+  width: 75%;
+  height: 500px;
+  align-items: center;
+  margin: 10px 10% 10px 10%; }
+
+.carouselExampleSlidesOnly {
   width: 75%;
   height: 500px;
   align-items: center;
@@ -393,7 +399,32 @@ footer i {
     font-size: 25px;
     margin-top: 35px; }
   .contacto div h3 {
-    font-size: 25px; } }
+    font-size: 25px; }
+  .contacto div form {
+    height: 400px;
+    width: 300px; }
+  .contacto input, .contacto textarea {
+    /* Tamaño uniforme del campo de texto */
+    width: 200px;
+    box-sizing: border-box;
+    /* Hacer coincidir los bordes del campo del formulario */
+    border: 1px solid #999; }
+  .textoscontacto h2 {
+    font-size: 25px;
+    margin-top: 35px; }
+  .redessocialescontacto i {
+    font-size: 80px; }
+  /* CARRUSEL 1050 px */
+  .carouselExampleSlidesOnly {
+    width: 75%;
+    height: 200px;
+    align-items: center;
+    margin: 10px 10% 10px 10%; }
+  .carousel-inner {
+    width: 75%;
+    height: 200px;
+    align-items: center;
+    margin: 10px 10% 10px 10%; } }
 
 /*!----- MEDIA QUERY 670 px----- */
 @media screen and (max-width: 670px) {

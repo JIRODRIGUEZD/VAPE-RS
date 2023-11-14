@@ -101,7 +101,8 @@
     h3 {
       font-size: 20px;
     }
-    p{
+
+    p {
       font-size: 20px
     }
   }
@@ -112,11 +113,12 @@
     margin-top: 50px;
   }
 
-  .textomarcas{
-    p{
+  .textomarcas {
+    p {
       font-size: 25px;
     }
   }
+
   .video {
     flex-direction: column;
 
@@ -153,12 +155,54 @@
       h3 {
         font-size: 25px
       }
+      form{
+        height: 400px;
+        width: 300px ;
+      }
 
+    }
+    input, textarea {
+      /* Tamaño uniforme del campo de texto */
+      width: 200px;
+      box-sizing: border-box;
+    
+      /* Hacer coincidir los bordes del campo del formulario */
+      border: 1px solid #999;
     }
 
   }
 
-}
+  .textoscontacto{
+    h2{ font-size: 25px;
+      margin-top: 35px;
+    }
+    }
+  .redessocialescontacto{
+    i{font-size: 80px;
+
+    }
+  }
+    /* CARRUSEL 1050 px */
+    .carouselExampleSlidesOnly {
+      width: 75%;
+      height: 200px;
+      align-items: center;
+      margin: 10px 10% 10px 10%;
+  
+    }
+  
+    .carousel-inner {
+      width: 75%;
+      height: 200px;
+      align-items: center;
+      margin: 10px 10% 10px 10%;
+    }
+  }
+
+
+
+
+
 
 
 /*!----- MEDIA QUERY 670 px----- */
@@ -217,11 +261,13 @@
     font-size: 15px;
     margin-top: 35px;
   }
-  .textomarcas{
-    p{
+
+  .textomarcas {
+    p {
       font-size: 15px;
     }
   }
+
   .video {
     iframe {
       width: 220px;
@@ -244,7 +290,8 @@
     h3 {
       font-size: 14px;
     }
-    p{
+
+    p {
       font-size: 12px
     }
   }
