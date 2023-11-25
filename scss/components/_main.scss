@@ -115,23 +115,21 @@
   justify-content: center;
   align-items: center;
 
-  i {
-    font-size: 120px;
-    color: white;
-    margin: 25px 15px 25px 15px;
+  div {
+    i {
+      font-size: 120px;
+      color: white;
+      margin: 25px 15px 25px 15px;
 
-    &:hover {
-      color: rgba(92, 189, 204, 255);
+      &:hover {
+        color: rgba(92, 189, 204, 255);
+      }
     }
+
   }
+
 }
 
-.mapa {
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 form {
   margin: 0 auto;
@@ -159,11 +157,12 @@ label {
   margin: 10px 10px 10px 10px;
 }
 
-form li + li {
+form li+li {
   margin-top: 1em;
 }
 
-input, textarea {
+input,
+textarea {
   /* Tamaño uniforme del campo de texto */
   width: 300px;
   box-sizing: border-box;
@@ -208,9 +207,12 @@ button {
 /*GRIDS GALERIA*/
 
 .nosotros {
+  margin: 0px 50px;
+
   h2 {
     text-align: center;
     font-size: 35px;
+
   }
 
   p {
@@ -301,13 +303,15 @@ button {
   align-items: center;
   margin: 10px 10% 10px 10%;
 }
-.carouselExampleSlidesOnly{
+
+.carouselExampleSlidesOnly {
   width: 75%;
   height: 500px;
   align-items: center;
   margin: 10px 10% 10px 10%;
 
 }
+
 .textomarcas {
   font-size: 40px;
   text-align: center;

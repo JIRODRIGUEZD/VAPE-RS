@@ -5,25 +5,36 @@
   header {
     flex-direction: column;
     font-size: 18px;
-    height: 85px;
-
-    nav ul li {
-      margin: 3px 5px 3px 5px;
-
-      a {
-        text-decoration: none;
-        color: white;
-        background-color: black;
+    height: 159px;
+    nav{
+      margin: bottom 3px;
+      nav ul li {
+        margin: 3px 5px 3px 5px;
+  
+        a {
+          text-decoration: none;
+          color: white;
+          background-color: black;
+        }
       }
+      
+    }
+
+    
+    h1{
+      background-image: url("../img/logo.png");
+      width: 285px;
+      height: 124px;
     }
   }
+  
 
   /*HERO 1050*/
 
   .hero {
-    height: 400px;
+    height: 370px;
     width: 100%;
-    margin-top: 40px;
+    
     background-position: center;
 
     h2 {
@@ -155,56 +166,66 @@
       h3 {
         font-size: 25px
       }
-      form{
+
+      form {
         height: 400px;
-        width: 300px ;
+        width: 300px;
       }
 
     }
-    input, textarea {
+
+    input,
+    textarea {
       /* Tamaño uniforme del campo de texto */
       width: 200px;
       box-sizing: border-box;
-    
+
       /* Hacer coincidir los bordes del campo del formulario */
       border: 1px solid #999;
     }
 
   }
 
-  .textoscontacto{
-    h2{ font-size: 25px;
+  .textoscontacto {
+    h2 {
+      font-size: 25px;
       margin-top: 35px;
     }
-    }
-  .redessocialescontacto{
-    i{font-size: 80px;
-
-    }
-  }
-    /* CARRUSEL 1050 px */
-    .carouselExampleSlidesOnly {
-      width: 75%;
-      height: 200px;
-      align-items: center;
-      margin: 10px 10% 10px 10%;
-  
-    }
-  
-    .carousel-inner {
-      width: 75%;
-      height: 200px;
-      align-items: center;
-      margin: 10px 10% 10px 10%;
-    }
   }
 
+  .redessocialescontacto {
+    flex-direction: column;
 
+    div {
+      i {
+        font-size: 80px;
+      }}
 
+      iframe {
+        width: 330px;
+        height: 212px;
+      }
 
+    
 
+  }
 
+  /* CARRUSEL 1050 px */
+  .carouselExampleSlidesOnly {
+    width: 75%;
+    height: 200px;
+    align-items: center;
+    margin: 10px 10% 10px 10%;
 
+  }
+
+  .carousel-inner {
+    width: 75%;
+    height: 200px;
+    align-items: center;
+    margin: 10px 10% 10px 10%;
+  }
+}
 /*!----- MEDIA QUERY 670 px----- */
 
 @media screen and (max-width: 670px) {
@@ -213,7 +234,7 @@
   header {
     flex-direction: column;
     font-size: 14px;
-    height: 45px;
+    height: 125px;
 
     nav ul li {
       margin: 3px 5px 3px 5px;
@@ -225,17 +246,19 @@
       }
     }
 
-    h1 img {
-      height: 45px;
+    h1{ 
+      width: 200px;
+      height: 65px;
+      margin-top: 5px;
     }
   }
 
   /*HERO 670*/
 
   .hero {
-    height: 350px;
+    height: 330px;
     width: 100%;
-    margin-top: 40px;
+  
     background-position: center;
 
     h2 {

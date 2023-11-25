@@ -40,15 +40,20 @@ header {
     list-style: none;
     display: flex;
     justify-content: right;
-    align-items: center; }
+    align-items: center;
+    margin-top: 10px; }
     header nav ul li {
       margin: 5px 15px 5px 15px; }
       header nav ul li a {
         text-decoration: none;
         color: white;
         background-color: black; }
-  header h1 img {
-    height: 135px; }
+  header h1 {
+    background-image: url("../img/logo3.jpg");
+    background-size: cover;
+    width: 285px;
+    height: 125px;
+    font-size: 0.1px; }
 
 /*MAIN*/
 .hero {
@@ -138,18 +143,12 @@ header {
   display: flex;
   justify-content: center;
   align-items: center; }
-  .redessocialescontacto i {
+  .redessocialescontacto div i {
     font-size: 120px;
     color: white;
     margin: 25px 15px 25px 15px; }
-    .redessocialescontacto i:hover {
+    .redessocialescontacto div i:hover {
       color: #5cbdcc; }
-
-.mapa {
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
 
 form {
   margin: 0 auto;
@@ -176,7 +175,8 @@ label {
 form li + li {
   margin-top: 1em; }
 
-input, textarea {
+input,
+textarea {
   /* Tamaño uniforme del campo de texto */
   width: 300px;
   box-sizing: border-box;
@@ -208,13 +208,14 @@ button {
   align-items: center; }
 
 /*GRIDS GALERIA*/
-.nosotros h2 {
-  text-align: center;
-  font-size: 35px; }
-
-.nosotros p {
-  text-align: justify;
-  font-size: 35px; }
+.nosotros {
+  margin: 0px 50px; }
+  .nosotros h2 {
+    text-align: center;
+    font-size: 35px; }
+  .nosotros p {
+    text-align: justify;
+    font-size: 35px; }
 
 .grid-container {
   width: 90%;
@@ -317,18 +318,23 @@ footer i {
   header {
     flex-direction: column;
     font-size: 18px;
-    height: 85px; }
-    header nav ul li {
-      margin: 3px 5px 3px 5px; }
-      header nav ul li a {
-        text-decoration: none;
-        color: white;
-        background-color: black; }
+    height: 159px; }
+    header nav {
+      margin: bottom 3px; }
+      header nav nav ul li {
+        margin: 3px 5px 3px 5px; }
+        header nav nav ul li a {
+          text-decoration: none;
+          color: white;
+          background-color: black; }
+    header h1 {
+      background-image: url("../img/logo.png");
+      width: 285px;
+      height: 124px; }
   /*HERO 1050*/
   .hero {
-    height: 400px;
+    height: 370px;
     width: 100%;
-    margin-top: 40px;
     background-position: center; }
     .hero h2 {
       font-size: 60px;
@@ -403,7 +409,8 @@ footer i {
   .contacto div form {
     height: 400px;
     width: 300px; }
-  .contacto input, .contacto textarea {
+  .contacto input,
+  .contacto textarea {
     /* Tamaño uniforme del campo de texto */
     width: 200px;
     box-sizing: border-box;
@@ -412,8 +419,13 @@ footer i {
   .textoscontacto h2 {
     font-size: 25px;
     margin-top: 35px; }
-  .redessocialescontacto i {
-    font-size: 80px; }
+  .redessocialescontacto {
+    flex-direction: column; }
+    .redessocialescontacto div i {
+      font-size: 80px; }
+    .redessocialescontacto iframe {
+      width: 330px;
+      height: 212px; }
   /* CARRUSEL 1050 px */
   .carouselExampleSlidesOnly {
     width: 75%;
@@ -432,20 +444,21 @@ footer i {
   header {
     flex-direction: column;
     font-size: 14px;
-    height: 45px; }
+    height: 125px; }
     header nav ul li {
       margin: 3px 5px 3px 5px; }
       header nav ul li a {
         text-decoration: none;
         color: white;
         background-color: black; }
-    header h1 img {
-      height: 45px; }
+    header h1 {
+      width: 200px;
+      height: 65px;
+      margin-top: 5px; }
   /*HERO 670*/
   .hero {
-    height: 350px;
+    height: 330px;
     width: 100%;
-    margin-top: 40px;
     background-position: center; }
     .hero h2 {
       font-size: 40px;
